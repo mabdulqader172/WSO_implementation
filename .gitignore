@@ -1,0 +1,180 @@
+# ============================================================
+# Python bytecode, compiled extensions, and build artifacts
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+
+build/
+dist/
+.eggs/
+eggs/
+*.egg
+*.egg-info/
+.installed.cfg
+MANIFEST
+pip-wheel-metadata/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================================
+# Python virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================
+# Python test, coverage, lint, and notebook caches
+# ============================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+.ipynb_checkpoints/
+
+# ============================================================
+# Local Conda / Mamba installations, environments, and caches
+# Add any custom environment directory names here.
+# ============================================================
+.conda/
+conda-env/
+conda-envs/
+conda_env/
+conda_envs/
+conda-meta/
+.mamba/
+.micromamba/
+miniconda/
+miniconda3/
+anaconda/
+anaconda3/
+mambaforge/
+miniforge3/
+
+# Root-level Conda package/environment storage
+/pkgs/
+/envs/
+
+# Local configuration; may contain machine-specific settings
+.condarc
+.mambarc
+
+# ============================================================
+# Protein structures and compressed structure files
+# Remove patterns for formats you want to keep in Git.
+# ============================================================
+# *.pdb
+*.ent
+*.cif
+*.mmcif
+*.bcif
+*.mmtf
+*.pqr
+*.pdbqt
+
+*.pdb.gz
+*.ent.gz
+*.cif.gz
+*.mmcif.gz
+*.bcif.gz
+*.mmtf.gz
+*.pqr.gz
+*.pdbqt.gz
+
+*.pdb.bz2
+*.ent.bz2
+*.cif.bz2
+*.mmcif.bz2
+
+# ============================================================
+# Molecular simulation / trajectory artifacts
+# ============================================================
+*.dcd
+*.xtc
+*.trr
+*.tng
+*.nc
+*.netcdf
+*.mdcrd
+*.crd
+*.rst7
+*.prmtop
+*.parm7
+
+# ============================================================
+# Protein-modeling output directories (repository root only)
+# Adjust to match your project's actual output directories.
+# ============================================================
+/structures/
+/predictions/
+/relaxed_structures/
+/unrelaxed_structures/
+/trajectories/
+/checkpoints/
+/model_weights/
+
+# ============================================================
+# macOS metadata
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+__MACOSX/
+
+# ============================================================
+# Windows metadata
+# ============================================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# Optional: uncomment to ignore Python source and notebooks too.
+# Usually these should remain version-controlled.
+# ============================================================
+# *.py
+# *.pyi
+# *.pyw
+# *.ipynb
+
+# Optional: uncomment to ignore dependency/environment specs.
+# Usually keep these for reproducibility.
+# requirements*.txt
+# environment*.yml
+# environment*.yaml
+# conda-lock*.yml
+# conda-lock*.yaml
+# pyproject.toml
+# poetry.lock
+# uv.lock
+# Pipfile
+# Pipfile.lock

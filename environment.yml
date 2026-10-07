@@ -1,0 +1,19 @@
+name: wso
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python=3.12 # Adjust to your preferred Python version
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - biopython
+  - mdtraj
+  - seaborn
+  - matplotlib
+  - openmm
+  - pdbfixer
+  - nglview
+  - py3Dmol
