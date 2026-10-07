@@ -21,7 +21,7 @@ All PDB data is located in `PDB` along with the dataset used for this study `fol
 
 Ensure Git and Conda are installed. Clone the repository, navigate to its directory, and create and activate the environment using the provided YAML file:
 ```bash
-git clone <repository-url>
+git clone https://github.com/mabdulqader172/WSO_implementation.git
 cd WSO_implementation
 conda env create -f environment.yml
 conda activate wso
